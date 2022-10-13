@@ -1,0 +1,47 @@
+.article-cover-img {
+	height: 50rem;
+	width: 100%;
+	background-size: cover;
+	border-radius: 3px;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.article-title {
+	margin: 3rem 0 0 0;
+	text-align: left;
+	font-size: 5rem;
+	font-weight: 400;
+}
+
+.article-category {
+	display: block;
+	padding: 0 0 3rem 0;
+	font-style: italic;
+}
+
+.article-content {
+	white-space: pre-wrap;
+}
+
+.article-container {
+	padding-bottom: 10rem;
+}
+
+.article-back {
+	font-weight: 700;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.btn-actions {
+	display: flex;
+	margin-top: 5rem;
+	align-items: center;
+	justify-content: center;
+}
